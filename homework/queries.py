@@ -1,7 +1,7 @@
 # pylint: disable=broad-exception-raised
 # pylint: disable=import-error
 
-from .mapreducemapreduce import hadoop as run_mapreduce_job  # type: ignore
+from .mapreduce import hadoop as run_mapreduce_job  # type: ignore
 
 #
 # Columns:
@@ -179,4 +179,5 @@ def run():
 
 
 if __name__ == "__main__":
+
     run()
